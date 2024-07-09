@@ -13,9 +13,69 @@ body {
     font-family: "Azeret Mono", monospace;
 }
 
+/* global design  */
+.title {
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 0;
+}
+
+.title-description {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.work-title {
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 0;
+}
+
+.work-description {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.lear-more-btn {
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    padding: 12px 20px 12px 20px;
+}
+
+.btn-text {
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* global style end  */
+
+/* header style  */
 header nav {
     width: 80%;
-    margin: auto;
+    margin: 20px auto;
+
 }
 
 header nav ul {
@@ -34,6 +94,7 @@ header .heading {
     line-height: 33px;
     letter-spacing: 0%;
     text-align: left;
+    margin: 10px;
 }
 
 header nav ul li a {
@@ -54,6 +115,7 @@ header nav ul li button {
 }
 
 /* nav section end  */
+
 /* hero section style  */
 .hero-section {
     background-image: url(assets/Hero-bg.png);
@@ -106,4 +168,55 @@ header nav ul li button {
     letter-spacing: 0%;
     text-align: center;
 }
+
 /* header section design finished  */
+
+/* work section style  */
+.works {
+    width: 1140px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+    margin: 60px auto;
+}
+
+.works .container {
+    width: 946px;
+    margin: auto;
+    padding: 80px;
+}
+
+.works .container .details {
+    margin-bottom: 48px;
+}
+
+.works .work {
+    width: 850px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
+}
+
+.works .work {
+    padding: 48px;
+    margin: 10px auto;
+}
+
+.works .work .about {
+    padding-right: 110px;
+}
+/* secund work style */
+.works .second-work-about{
+    padding-left: 50px;
+    padding-right: 100px;
+}
+.works .second-work {
+    width: 850px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    border-radius: 16px;
+    background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+}
+/* work section style end  */
