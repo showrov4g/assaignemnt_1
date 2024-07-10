@@ -445,7 +445,7 @@ header nav ul li button {
 
 footer .footer-bottom {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     margin: 50px auto;
 }
 #footer hr{
