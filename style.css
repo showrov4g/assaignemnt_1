@@ -371,16 +371,15 @@ header nav ul li button {
 
 /* .next-target style end  */
 .support {
-    background-image: url(assets/handshake.jpg);
+    background: url(assets/handshake.jpg), #00000033;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     padding: 64px;
     text-align: center;
     border-radius: 16px;
-    /* background-color: rgba(0, 0, 0, 0.2); */
-}
 
+}
 
 .support h2 {
     color: rgb(255, 255, 255);
@@ -415,6 +414,66 @@ header nav ul li button {
 }
 
 .support input[type="submit"] {
+    padding: 17px 20px 17px 20px;
+    border-radius: 8px;
+    border: none;
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    cursor: pointer;
+}
+
+/* main section style end  */
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px auto;
+}
+
+.footer-top h4 {
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    margin: 10px 0;
+}
+
+footer .footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px auto;
+}
+#footer hr{
+    border: 2px solid #00000033;
+}
+#footer .footer-bottom .address h5  {
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+}
+#footer .contact label{
+    display: block;
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+}
+#footer .contact input{
+    display: block;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#footer .contact input[type="submit"]{
     padding: 17px 20px 17px 20px;
     border-radius: 8px;
     border: none;
