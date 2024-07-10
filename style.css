@@ -69,6 +69,16 @@ body {
     text-decoration: none;
 }
 
+.title-width {
+    width: 852px;
+    margin: auto;
+}
+
+.section-width {
+    width: 1140px;
+    margin: auto;
+}
+
 /* global style end  */
 
 /* header style  */
@@ -156,7 +166,6 @@ header nav ul li button {
 .hero-section .content button {
     border-radius: 8px;
     background: rgb(13, 19, 33);
-    padding: 21px 24px 21px 24px;
 }
 
 .hero-section .content button a {
@@ -167,13 +176,14 @@ header nav ul li button {
     line-height: 23px;
     letter-spacing: 0%;
     text-align: center;
+    padding: 21px 24px 21px 24px;
+    display: block;
 }
 
 /* header section design finished  */
 
 /* work section style  */
 .works {
-    width: 1140px;
     border-radius: 16px;
     background: rgba(13, 19, 33, 0.02);
     margin: 60px auto;
@@ -224,14 +234,7 @@ header nav ul li button {
 
 /* work section style end  */
 .inspiration {
-    width: 1140px;
-    height: 614px;
-    margin: auto;
-}
-
-.inspiration .text {
-    width: 852px;
-    margin: auto;
+    margin: 10px auto 100px auto;
 }
 
 .inspiration .video {
@@ -248,4 +251,62 @@ header nav ul li button {
     height: 550px;
     border-radius: 16px;
 }
+
 /* inspiration section end  */
+/* my-target section style  */
+
+.my-target .skills {
+    display: flex;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.my-target .skills .color-1 {
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+}
+
+.my-target .skills .color-2 {
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+}
+
+.my-target .skills .color-3 {
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+}
+
+.my-target .skills .card-box {
+    padding: 40px;
+
+}
+
+.my-target .skills .card-box h5 {
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 0;
+}
+
+.my-target .skills .card-box p {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.my-target .skills .card-box a {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration-line: underline;
+}
