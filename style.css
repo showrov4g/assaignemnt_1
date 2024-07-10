@@ -310,3 +310,60 @@ header nav ul li button {
     text-align: left;
     text-decoration-line: underline;
 }
+
+/* my target section style end */
+/* Next-target section  */
+.next-target {
+    margin: 100px auto;
+}
+
+.next-target .one, .next-target .two, .next-target .three {
+    padding: 40px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin: 15px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+}
+
+.next-target .image {
+    width: 95px;
+    height: 108px;
+    margin: 30px auto 0 auto;
+}
+
+.next-target .image img {
+    width: 100%;
+}
+
+.next-target .lang h5 {
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 0;
+}
+
+.next-target .lang p {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.next-target .lang a {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration-line: underline;
+}
+/* .next-target style end  */
